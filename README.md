@@ -1,3 +1,26 @@
+NOTES
+export PATH=/usr/bin:/bin       path get thrown out
+"scripts": { "start": "WATCHPACK_POLLING=true react-scripts start"}    auto reload 
+
+
+
+
+
+INSTALL
+npm i -D react-router-dom@latest
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
