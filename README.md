@@ -8,8 +8,12 @@ export PATH=/usr/bin:/bin       path get thrown out
 
 INSTALL
 npm i -D react-router-dom@latest
-
-
+npm init -y            create package json
+npm i body-parser      to send request
+      cors             enable cross orgin request
+      express          create the routing
+      mongoose         create database NoSql
+      Nodemon          auto update the server
 
 
 
