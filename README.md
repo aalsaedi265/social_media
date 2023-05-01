@@ -1,6 +1,12 @@
 NOTES
 export PATH=/usr/bin:/bin       path get thrown out
 "scripts": { "start": "WATCHPACK_POLLING=true react-scripts start"}    auto reload 
+or
+"scripts": { "start": "CHOKIDAR_USEPOLLING=true react-scripts start"}
+
+will use alot of Material-ui inclusing core
+
+if hosted would place proxy in json followined by url of the project
 
 
 
@@ -14,11 +20,23 @@ npm i body-parser      to send request
       express          create the routing
       mongoose         create database NoSql
       Nodemon          auto update the server
-
-
-
-
-
+following produving style and syntax best practices support nothing critical
+      --save-dev eslint-plugin-react-hooks
+      --save-dev eslint-plugin-react
+      --save-dev eslint-plugin-jsx-a11y
+      --save-dev eslint-plugin-import      
+      --save-dev eslint-config-airbnb
+      --save-dev @redux-devtools/log-monitor
+      --save-dev @redux-devtools/dock-monitor
+      --save-dev @redux-devtools/core
+      bunch of material ui stuff
+      end
+npm i   redux-thunk         async logic interacts with store
+        react-redux         similar to rrdom regardring manging state
+        react-file-base64   converting files to base64 string
+        moment              format and style dates
+        jwt-decode          decoding json web token
+        axios               promise-based HTTP client for the browser and node
 
 
 
