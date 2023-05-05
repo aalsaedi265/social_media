@@ -1,5 +1,15 @@
+Social Media application with search, filteration, login, presistance, redux
+
+uses React, monogoBD, HTML, CSS, Javascript, Axios, and other technolgies
+
+
+
+
+
 NOTES
+
 export PATH=/usr/bin:/bin       path get thrown out
+
 "scripts": { "start": "WATCHPACK_POLLING=true react-scripts start"}    auto reload 
 or
 "scripts": { "start": "CHOKIDAR_USEPOLLING=true react-scripts start"}
