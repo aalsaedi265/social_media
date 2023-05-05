@@ -18,7 +18,7 @@ will use alot of Material-ui inclusing core
 
 if hosted would place proxy in json followined by url of the project
 
-
+due to cores ploce, you will need a proxy, make it the same as the one for the backend, aso in the backend speciefy cores before the routs
 
 
 

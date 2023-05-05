@@ -14,18 +14,15 @@ import postRoutes from  "./routes/posts.js"
 
 const app = express()
 
+app.use(bodyParser.json({limit:"30mb", extended:true}))//mb for the for large images
+app.use(bodyParser.urlencoded({limit:"30mb",extended:true}))
+app.use(cors())
 
 
 app.use('/posts',postRoutes)
 
 
 
-
-
-
-app.use(bodyParser.json({limit:"30mb", extended:true}))//mb for the for large images
-app.use(bodyParser.urlencoded({limit:"30mb",extended:true}))
-app.use(cors())
 
 const CONNECTION_URL ="mongodb+srv://admin:admin@contacts.zignsm8.mongodb.net/test"
 const  PORT = process.env.THEPORT || 5000
