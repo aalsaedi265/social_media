@@ -4,6 +4,9 @@ uses React, monogoBD, HTML, CSS, Javascript, Axios, and other technolgies
 
 
 
+https://www.youtube.com/watch?v=VsUzmlZfYNg
+use this video to aid 
+
 
 
 NOTES
